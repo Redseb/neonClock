@@ -2,9 +2,10 @@ body {
     width: 99vw;
     height: 97vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(brickWall.jpg);
+    background-image: url(images/brickWall.jpg);
     background-size: auto 100%;
 }
 
@@ -18,10 +19,18 @@ body {
     border-radius: 1.5rem;
 }
 
-.neon-text {
+.neon-text{
     font-family: neon;
     font-size: 14rem;
     color: #ffd8d8;
     padding: 0 3.5rem 0 3.5rem;
     text-shadow: .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, .1vw 0vw 0vw #f25757, .2vw 0vw 0vw #f25757, .4vw 0vw 0vw #f25757, .1vw 0vw .1vw #f25757, .2vw 0vw .1vw #f25757, .4vw 0vw .1vw #f25757, .1vw 0vw 2vw #f25757, .2vw 0vw 2vw #f25757, .4vw 0vw 2vw #f25757, .1vw 0vw 1vw #e50b0b, .2vw 0vw 1vw #e50b0b, .4vw 0vw 5vw #e50b0b, .1vw 0vw 5vw #e50b0b, .2vw 0vw 20vw #e50b0b, .4vw 0vw 10vw #e50b0b, .1vw 0vw 10vw #e50b0b, .2vw 0vw 30vw #e50b0b, .4vw 0vw 10vw #e50b0b;
+}
+
+.neon-text h2{
+    font-family: neon;
+    font-size: 2rem;
+    color: #ffd8d8;
+    padding: 0 3.5rem 0 3.5rem;
+    text-shadow: .05vw 0vw .125vw #ffd8d8, .1vw 0vw .125vw #ffd8d8, .2vw 0vw .125vw #ffd8d8, .05vw 0vw 0vw #f25757, .1vw 0vw 0vw #f25757, .2vw 0vw 0vw #f25757, .05vw 0vw .05vw #f25757, .1vw 0vw .05vw #f25757, .2vw 0vw .05vw #f25757, .05vw 0vw 1vw #f25757, .1vw 0vw 1vw #f25757, .2vw 0vw 1vw #f25757, .05vw 0vw 0.5vw #e50b0b, .1vw 0vw 0.5vw #e50b0b, .2vw 0vw 2.5vw #e50b0b, .05vw 0vw 2.5vw #e50b0b, .1vw 0vw 10vw #e50b0b, .2vw 0vw 5vw #e50b0b, .05vw 0vw 5vw #e50b0b, .1vw 0vw 15vw #e50b0b, .2vw 0vw 2.5vw #e50b0b;
 }

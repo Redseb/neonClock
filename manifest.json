@@ -1,8 +1,11 @@
 {
     "manifest_version": 2,
     "name": "Neon Clock",
-    "description": "Overrides new tab page with a neon clock",
+    "description": "Overrides new tab page with a neon clock and temperature",
     "version": "1.0",
+    "permissions": [
+        "geolocation"
+    ],
     "chrome_url_overrides": {
         "newtab": "index.html"
     }
